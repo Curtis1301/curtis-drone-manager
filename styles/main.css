@@ -1,0 +1,226 @@
+/* GENERAL */
+
+QMainWindow {
+    background: #fafafa;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+QToolBar QToolButton{
+    font-size: 15px;
+    padding: 4px;
+}
+QGroupBox {
+    font: bold;
+    border: 1px solid silver;
+    border-radius: 6px;
+    margin-top: 6px;
+    font-weight: bold;
+    font-size: 15px;
+}
+QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 7px;
+    padding: 0px 5px 0px 5px;
+}
+.subheading {
+    color: #0f1925;
+    font-size: 14px;
+    font-weight: 600;
+}
+.cameraFeed {
+    background-color: lightgray;
+    font-size: 18px;
+}
+.workspaceButton {
+    background-color: #0078D7;
+    color: #fafafa;
+    font-weight: bold;
+    margin-bottom: 5%;
+    padding: 6px 12px;
+    border-radius: 8px;
+}
+.workspaceButton:hover {
+    background-color: #004a86;
+}
+
+/* WORKSPACE */
+
+.blockButton {
+    color: #fafafa;
+    font-weight: bold;
+    margin-bottom: 5%;
+    max-width: 200px;
+    padding: 8px 16px;
+    margin: 4px;
+    border-radius: 8px; 
+}
+
+QTabBar::tab {
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 4px;
+    padding: 5%;
+    margin-bottom: 10px;
+}
+QTabBar::tab:selected {
+    background: #0078D7;
+    color: white;
+}
+QTabBar::tab:hover {
+    background: #0078D7;
+    color: white;
+}
+BlockView {
+    background-color: #f5f5f5;
+}
+
+.logicBtn {
+    background-color: #E67E22;
+}
+.Event {
+    background-color: #C94C4C;
+}
+.Altitude {
+    background-color: #F5A623;
+}
+.Orientation {
+    background-color: #27AE60;
+}
+.Camera {
+    background-color: #2A9D8F;
+}
+.Face {
+    background-color: #A67BC5;
+}
+
+/* SUMMARY */
+
+.selectorComboBox {
+    background-color: white;
+    border: 2px solid #cccccc;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333333;
+    height: 20px;
+    margin-top: 7px;
+}
+.selectorButton {
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid #cccccc;
+    border-radius: 5px;
+    padding: 7px;
+    height: 20px;
+    margin-top: 7px;
+}
+.configButton {
+    background-color: #0078D7;
+    color: #fafafa;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-weight: 600;
+    max-width: 200px;
+    height: 25px;
+    margin-top: 7px;
+}
+.configButton:hover {
+    background-color: #004a86;
+}
+.configButton:disabled {
+    background-color: #9cbed9;
+}
+.droneConnectLabel {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 7px;
+}
+.infoLabel {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 7px;
+}
+
+/* TELEMETRY */
+
+.commandLogLabel {
+    font-size: 18px;
+    font-weight: 600;
+}
+.telemetryView QLabel {
+    font-size: 14px;
+    font-weight: 600;
+}
+.dialLabel {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 18px;
+}
+QDial {
+    color: black;
+}
+/* CONTROLS */
+
+.topbarButton {
+    color: #fafafa;
+    font-weight: 600;
+    margin-bottom: 5%;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.executeBtn {
+    background-color: #2A9D8F;
+}
+.executeBtn:hover {
+    background-color: #0d312c;
+}
+.executeBtn:disabled {
+    background-color: #82a09d;
+}
+.landBtn {
+    background-color: orange;
+}
+.landBtn:hover {
+    background-color: darkorange;
+}
+.emergencyBtn {
+    background-color: red;
+}
+.emergencyBtn:hover {
+    background-color: darkred;
+}
+.manualControls QPushButton {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid #388E3C;
+    border-radius: 10px;
+    padding: 8px 16px;
+    min-width: 80px;
+}
+.manualControls QPushButton:hover {
+    background-color: #45a049;
+}
+.manualControls QPushButton:pressed {
+    background-color: #388E3C;
+}
+.manualControls QPushButton:disabled {
+    background-color: #A5A5A5;
+    color: #E0E0E0;
+    border: 2px solid #8D8D8D;
+}
+.sliderLabel {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.slider {
+    background: #f0f0f0;
+    border-radius: 5px;
+    height: 22px;
+}
